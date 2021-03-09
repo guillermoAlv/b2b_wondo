@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import GA4React, { useGA4React } from "ga-4-react";
+import GA4React from "ga-4-react";
 
 const ga4react = new GA4React("G-Q892BFMRZ6");
 
