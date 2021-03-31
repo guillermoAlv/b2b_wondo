@@ -2,6 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { useGA4React } from "ga-4-react";
+import TagManager from 'react-gtm-module'
+
+const tagManagerArgs = {
+  gtmId: 'GTM-TZXLKSS'
+}
+TagManager.initialize(tagManagerArgs)
 
 function App() {
   const ga = useGA4React();
